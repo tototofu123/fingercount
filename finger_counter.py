@@ -63,7 +63,7 @@ while True:
             wrist_x, wrist_y = lm_list[0]
 
             cv2.putText(frame, f"{hand_label}: {count}", (wrist_x - 40, wrist_y + 30),
-                        cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 0), 3)
+                        cv2.FONT_HERSHEY_PLAIN, 2, (0, 124, 245), 3) # Orange in BGR
 
     cv2.imshow("Dual Hand Counter", frame)
 
